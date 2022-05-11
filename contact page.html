@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Anonymous Pro' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="background-color:#F0F5F8">
+    <center>
+      <div style="word-spacing:90px; position:fixed; left:0; right:0;top:0;margin-left:auto; margin-right: auto;line-height: 30px;margin-top:0px; background-color:rgba(240,245,248,.6);
+      background-image:url('https://dkemhji6i1k0x.cloudfront.net/000_clients/938934/file/9389346cnOSZEu.png'); background-size:150px; background-repeat:no-repeat; background-position:center top;">
+            <br/><br/><br/>
+          </div>
+    </center>
+    <br/><br/><br/><br/><br/><br/>
+    <div class="container">
+    <center>
+      <P style ="font-family:'Archivo'; font-size: 30px;"><b>CONTACT US</b></p>
+      <p style ="font-family:'Anonymous Pro'; text-align:center; font-size:17px; margin-right:5px">PLEASE FILL IN THE SECTIONS BELOW TO REACH OUT ABOUT POTENTIAL JOBS</p>
+    </center>
+  <div class="row">
+    <div class="column">
+    </div>
+    <div class="column">
+    </br></br></br></br>
+        <form action="contact-form-handler.php " method="POST" enctype="multipart/form-data" name="EmailForm">
+        <label for="fname" style="font-family: 'Anonymous Pro'; font-size: 14px; margin-left: 33vw">FIRST NAME: </label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname" style="font-family: 'Anonymous Pro'; font-size: 14px; margin-left: 50px;">LAST NAME: </label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </br></br></br>
+        <label for="type" style="font-family: 'Anonymous Pro'; font-size: 14px; margin-left: 33vw">TYPE OF WORK:</label>
+        <select id="type" name="type">
+          <option value="GFX">GFX</option>
+          <option value="PHOTOGRAPHY">PHOTOGRAPHY</option>
+          <option value="VIDEOGRAPHY">VIDEORGRAPHY</option>
+        </select>
+        <label for="email" style="font-family: 'Anonymous Pro'; font-size: 14px; margin-left: 90px">YOUR EMAIL:</label>
+        <input type="text" id="email" name="Senders email" placeholder="Your email">
+        </br></br></br>
+        <label for="message" style="font-family: 'Anonymous Pro'; font-size: 14px; margin-left: 33vw">MESSAGE CONTENT: </label>
+      </BR>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:170px; width:33vw ; margin-left: 33vw"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    </div>
+    </div>
+    <script language="JavaScript">
+    var frmvalidator  = new Validator("contactform");
+    frmvalidator.addValidation("name","req","Please provide your name");
+    frmvalidator.addValidation("email","req","Please provide your email");
+    frmvalidator.addValidation("email","email",
+    "Please enter a valid email address");
+    </script>
+    <footer>
+    <div style="position:absolute;left:0vw; right:0vw; top:770px;background-color:#151515; margin-left:auto; margin-right:auto; margin-bottom:0px">
+        <br/>
+        <p style ="font-family:'Anonymous Pro'; text-align:Right; font-size:14px; margin-right:5px"><a class="footer" href="contact page.html">CONTACT</a></p>
+        <p style ="font-family:'Anonymous Pro'; text-align:Right; font-size:14px; margin-right:5px"><a class="footer" href="Sizing.html">SIZING</a></p>
+        <p style ="font-family:'Anonymous Pro'; text-align:Right; font-size:14px; margin-right:5px"><a class="footer" href="faq.html">FAQ</a></p>
+        <p style ="font-family:'Anonymous Pro'; text-align:Right; font-size:14px; margin-right:5px"><a class="footer" href="Partners.html">PARTNERS</a></p>
+        <p style ="font-family:'Anonymous Pro'; text-align:Right; font-size:14px; margin-right:5px"><a class="footer" href="Terms.html">TERMS</a></p>
+        <p style ="font-family:'Anonymous Pro'; text-align:Right; font-size:14px; margin-right:5px"><a class="footer" href="Privacy.html">PRRIVACY</a></p>
+    </div>
+    <div style="position:absolute;left:0vw; right:50vw; top:770px;background-color:#151515; margin-left:auto; margin-right:auto; margin-bottom:0px">
+      <br/>
+      <div class ="nav" style="word-spacing:20px; margin-left: 5px; margin-top: 10px">
+        <a href="https://www.instagram.com/saynsmedia/">
+          <img src="https://dkemhji6i1k0x.cloudfront.net/000_clients/938934/file/9389340BpuQyRE.png" class="footer" alt="SaynsMedia" style="height:18px; width:25px;"></a>
+        <a href="https://twitter.com/saynsmedia" class="footer">
+          <img src="https://dkemhji6i1k0x.cloudfront.net/000_clients/938934/file/938934KhDKccbz.png" class="footer" alt="SaynsMedia" style="height:18px; width:25px"/></a>
+        <a href="https://www.behance.net/saynsmedia?tracking_source=search_users_recommended%7CSayns%20Media" class="footer">
+          <img src="https://dkemhji6i1k0x.cloudfront.net/000_clients/938934/file/938934xU1tAyFY.png" class="footer" alt="SaynsMedia" style="height:18px; width:25px"/></a>
+        <a href="https://www.twitch.tv/tbescream" class="footer">
+          <img src="https://dkemhji6i1k0x.cloudfront.net/000_clients/938934/file/938934O5hHZ5zw.png" class="footer" alt="SaynsMedia" style="height:18px; width:25px"/></a>
+        <a href="https://discord.gg/SZYV8sU" class="footer">
+          <img src="https://dkemhji6i1k0x.cloudfront.net/000_clients/938934/file/938934m6jaVW2d.png" class="footer" alt="SaynsMedia" style="height:18px; width:25px"/></a>
+      </div>
+    </div>
+    </footer>
+  </body>
+</html>

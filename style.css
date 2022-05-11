@@ -1,0 +1,88 @@
+.anchor{
+  display: block;
+  height: 230px; /*same height as header*/
+  margin-top: -230px; /*same height as header*/
+  visibility: hidden;
+}
+.anchorport{
+  display: flex;
+  align-items:center;
+}
+a.footer:link{
+  color:#F0F5F8;
+  text-decoration: none;
+}
+a.footer:visited{
+  color:#F0F5F8;
+  text-decoration: none;
+}
+a.footer:hover{
+  color:#FF3231;
+  text-decoration:none;
+}
+a.footer:active{
+  color:#FF3231;
+  text-decoration: none;
+}
+a.contact:link{
+  color:#151515;
+  text-decoration: none;
+}
+a.contact:visited{
+  color:#151515;
+  text-decoration: none;
+}
+a.contact:hover{
+  color:#FF3231;
+  text-decoration:none;
+}
+a.contact:active{
+  color:#FF3231;
+  text-decoration: none;
+}
+img.footer:hover{
+  background-color:#FF3231;
+}
+img.footer:link{
+  background-color:#F0F5F8;
+}
+.collapsible {
+  background-color: #777;
+  color: #151515;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\271A';
+  color: #151515;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\25AC";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
